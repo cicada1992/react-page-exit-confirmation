@@ -1,0 +1,58 @@
+{
+  "name": "react-page-exit-confirmation",
+  "version": "0.0.1",
+  "description": "A confirmation modal that triggers when you route or exit the page.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "./node_modules/.bin/webpack-cli --config webpack.config.js --progress"
+  },
+  "keywords": [
+    "react-page-exit",
+    "react-exit",
+    "react-page-exit-confirmation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicada1992/react-page-exit-confirmation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cicada1992/react-page-exit-confirmation/issues"
+  },
+  "homepage": "https://github.com/cicada1992/react-page-exit-confirmation#readme",
+  "author": "Youngjae Han <han6318@naver.com>",
+  "license": "ISC",
+  "dependencies": {
+    "autobind-decorator": "^2.4.0",
+    "react-modal": "^3.11.2",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-modal": "^3.10.5",
+    "@types/react-router-dom": "^4.3.5",
+    "@types/styled-components": "^4.1.20",
+    "fork-ts-checker-webpack-plugin": "^1.3.7",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^4.3.1",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^4.3.1"
+  }
+}
