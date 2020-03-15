@@ -8,6 +8,11 @@ npm install react-page-exit-confirmation --save
 import PageExitConfirmation from 'react-page-exit-confirmation';
 ```
 
+## Peer Dependancies
+- react
+- react-dom
+- react-router-dom
+
 ## Demo
 https://cicada1992.github.io/react-page-exit-confirmation/
 
