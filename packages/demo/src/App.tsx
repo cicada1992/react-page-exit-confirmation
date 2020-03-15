@@ -14,8 +14,8 @@ const App: React.FC = () => (
   <Container>
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={PageOne} />
         <Route exact path="/two" component={PageTwo} />
+        <Route path="/" component={PageOne} />
       </Switch>
     </BrowserRouter>
   </Container>
