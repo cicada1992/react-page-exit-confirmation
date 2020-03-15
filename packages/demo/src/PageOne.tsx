@@ -50,15 +50,15 @@ const PageOne: React.FC<RouteComponentProps> = ({ history }) => {
         Demo page for <Title>react-page-exit-confirmation</Title>
       </Container>
       <List>
-        1. Try to close or refresh window. then, you can see chrome prompt.
-      </List>
-      <List>
-        2. Try to route by clicking the button below. then, you can see modal.
+        1. Try to route by clicking the button below. then, you can see modal.
         (for SPA)
       </List>
       <Link to="/two">
         <button>Route to another page (SPA)</button>
       </Link>
+      <List>
+        2. Try to close or refresh window. then, you can see chrome prompt.
+      </List>
     </>
   );
 };
